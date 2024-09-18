@@ -1,6 +1,6 @@
 # Hi there 👋 I'm Keaton Flake
 ### Software Engineer | Full Stack Dev | Seeking Internships
-### View my portfolio: [Keaton.Studio](keaton.studio)
+### View my portfolio: [Keaton.Studio](www.keaton.studio)
 - 💼 I am passionate about coding and aspire to be the ideal candidate for a company that creates meaningful impact.
 - 📖 I am stdudying Software Engineering at BYUI and will graduate December 2025.
 - 🏃 I’m currently working on a progressive web app that will help clean up communities as a personal project.
