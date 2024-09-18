@@ -1,4 +1,12 @@
-## Hi there 👋
+# Hi there 👋 I'm Keaton Flake
+### Software Engineer | Full Stack Dev | Seeking Internships
+### View my portfolio: [Keaton.Studio](keaton.studio)
+- 💼 I am passionate about coding and aspire to be the ideal candidate for a company that creates meaningful impact.
+- 📖 I am stdudying Software Engineering at BYUI and will graduate December 2025.
+- 🏃 I’m currently working on a progressive web app that will help clean up communities as a personal project.
+- ⚡ I love riding motorcycles, snowboarding, and keeping up on the latest tech.
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0072B1?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/keaton-flake)
 
 <!--
 **keatonflake/keatonflake** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
