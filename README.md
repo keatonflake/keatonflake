@@ -1,7 +1,7 @@
 # Hi there 👋 I'm Keaton Flake
 ### Software Engineer | Full Stack Dev | Seeking Internships
 
-- 📖 I am stdudying Software Engineering at BYUI and will graduate December 2025.
+- 📖 I am studying Software Engineering at BYUI and will graduate December 2025.
 - 🏃 I’m currently working on a progressive web app that will help clean up communities as a personal project.
 - ⚡ I love riding motorcycles, snowboarding, and keeping up on the latest tech.
 
