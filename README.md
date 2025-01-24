@@ -5,8 +5,11 @@
 - 🏃 I’m currently working on a progressive web app that will help clean up communities as a personal project.
 - ⚡ I love riding motorcycles, snowboarding, and keeping up on the latest tech.
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0072B1?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/keaton-flake)
-[![Portfolio](https://img.shields.io/badge/Portfolio-1d8303?style=for-the-badge&logo=external-link&logoColor=white)](https://www.keaton.studio)
+### ⚙️ &nbsp;GitHub Analytics
+
+<p>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=keatonflake&show_icons=true&theme=buefy&include_all_commits=true&count_private=true"/>
+</p>
 
 ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
@@ -18,3 +21,9 @@
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=PostgreSQL)
 ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+
+### 🤝🏻 &nbsp;Connect with Me 
+<p>
+  <a href="https://www.keaton.studio/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-keaton.studio-green"></a>
+  <a href="https://www.linkedin.com/in/keaton-flake/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-keatonflake-blue"></a>
+</p>
