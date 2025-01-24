@@ -6,8 +6,7 @@
 - ⚡ I love riding motorcycles, snowboarding, and keeping up on the latest tech.
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0072B1?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/keaton-flake)
-
-### Portfolio: [Keaton.Studio](https://www.keaton.studio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1d8303?style=for-the-badge&logo=external-link&logoColor=white)](https://www.keaton.studio)
 
 ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
