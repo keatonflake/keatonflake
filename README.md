@@ -5,12 +5,6 @@
 - 🏃 I’m currently working on a progressive web app that will help clean up communities as a personal project.
 - ⚡ I love riding motorcycles, snowboarding, and keeping up on the latest tech.
 
-### ⚙️ &nbsp;GitHub Analytics
-
-<p>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=keatonflake&show_icons=true&theme=buefy&include_all_commits=true&count_private=true"/>
-</p>
-
 ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
 ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
