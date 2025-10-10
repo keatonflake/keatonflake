@@ -2,8 +2,7 @@
 ### Software Engineer | Full Stack Dev | Seeking Internships
 
 - 📖 I am studying Software Engineering at BYUI and will graduate December 2025.
-- 🏃 I’m currently working on a progressive web app that will help clean up communities as a personal project.
-- ⚡ I love riding motorcycles, snowboarding, and keeping up on the latest tech.
+- I'm a Software Engineering Intern at Idaho National Laboratory.
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typescript)
