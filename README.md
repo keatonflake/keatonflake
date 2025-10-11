@@ -1,5 +1,5 @@
 # Hi there 👋 I'm Keaton Flake
-### Software Engineer | Full Stack Dev | Seeking Internships
+### Software Engineer | Full Stack Developer
 
 - 📖 I am studying Software Engineering at BYUI and will graduate December 2025.
 - I'm a Software Engineering Intern at Idaho National Laboratory.
