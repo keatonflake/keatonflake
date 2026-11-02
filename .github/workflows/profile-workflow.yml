@@ -1,39 +1,42 @@
 name: Koi
+
 on:
-  schedule: [{ cron: "20 0 * * *" }]
+  schedule:
+    # Just after midnight UTC, so the koi shows the day that just ended.
+    - cron: "20 0 * * *"
   workflow_dispatch:
   push:
     paths: [.github/workflows/koi.yml]
 
-permissions: {}          # default: nothing
+permissions: {}
 
 concurrency: koi
 
 jobs:
-  draw:                  # runs the untrusted code
+  draw:
     runs-on: ubuntu-latest
     permissions:
       contents: read
     steps:
-      # No checkout: there's no repo content or stored git credentials to steal
-      - uses: yalongwastaken/git-koi@<full-40-char-sha>  # v1.0.2
+      # No checkout: no repo content or stored git credentials to steal.
+      - uses: yalongwastaken/git-koi@7305e9b1fadee6f43d3b4fa543a25d4cde79856e  # v1.0.2
         with:
           body: white
           output-dir: koi
-      - uses: actions/upload-artifact@<sha>  # pin this too
+      - uses: actions/upload-artifact@REPLACE_WITH_UPLOAD_ARTIFACT_SHA  # vX.Y.Z
         with:
           name: koi
           path: koi/koi.gif
           if-no-files-found: error
 
-  commit:                # has write access, runs only your own code
+  commit:
     needs: draw
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@<7305e9b1fadee6f43d3b4fa543a25d4cde79856e>
-      - uses: actions/download-artifact@<7305e9b1fadee6f43d3b4fa543a25d4cde79856e>
+      - uses: actions/checkout@REPLACE_WITH_CHECKOUT_SHA  # vX.Y.Z
+      - uses: actions/download-artifact@REPLACE_WITH_DOWNLOAD_ARTIFACT_SHA  # vX.Y.Z
         with:
           name: koi
           path: koi
@@ -41,11 +44,15 @@ jobs:
         shell: bash
         run: |
           f=koi/koi.gif
-          [ "$(head -c 6 "$f")" = "GIF89a" ] || [ "$(head -c 6 "$f")" = "GIF87a" ] || { echo "not a GIF"; exit 1; }
+          magic=$(head -c 6 "$f")
+          [ "$magic" = "GIF89a" ] || [ "$magic" = "GIF87a" ] || { echo "not a GIF"; exit 1; }
           [ "$(stat -c %s "$f")" -lt 5000000 ] || { echo "too large"; exit 1; }
           git add "$f"
-          git diff --cached --quiet && { echo "unchanged"; exit 0; }
+          if git diff --cached --quiet; then
+            echo "The koi is unchanged; nothing to commit."
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit --quiet -m "koi: draw the day's koi"
+          git commit --quiet --message "koi: draw the day's koi"
           git push --quiet
