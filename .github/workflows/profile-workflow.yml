@@ -23,7 +23,7 @@ jobs:
         with:
           body: white
           output-dir: koi
-      - uses: actions/upload-artifact@REPLACE_WITH_UPLOAD_ARTIFACT_SHA  # vX.Y.Z
+      - uses: actions/upload-artifact@v4
         with:
           name: koi
           path: koi/koi.gif
@@ -35,8 +35,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@REPLACE_WITH_CHECKOUT_SHA  # vX.Y.Z
-      - uses: actions/download-artifact@REPLACE_WITH_DOWNLOAD_ARTIFACT_SHA  # vX.Y.Z
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
         with:
           name: koi
           path: koi
